@@ -7,3 +7,7 @@ Q. How is the staging area different from the working directory and the reposito
 Staging area in an intermediatory step between working directory and git repository. 
 It helps in commiting multiple files (may be related to a single commit) at once to the repository.
 
+Q. How can you use the staging area to make sure you have one commit per logical change?
+When one logical change has been made, add to the staging area files concerned with the logical change made.
+And commit only these files related to the logical change.
+Staging helps in grouping files related to a commit.
