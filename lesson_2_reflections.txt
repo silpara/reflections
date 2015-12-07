@@ -17,3 +17,8 @@ Case 1: SINGLE MODEL
 When working in competitions, there is a code which is the best version, may be the best params found so far, then few changes are made to check how it performs on other parameters. But the best params have still to be saved as its not necessary that new settings will work. So keeping history becomes important.
 Case 2: Ensemble model
 One may create ensembles with different models. Adding a new model may or may not work. The best ensemble may be kept as master and each new addition experiment to ensemble may be kept as a branch to keep track of what worked and what didn't.
+
+Q. How do the diagrams help you visualize the branch structure?
+Diagrams help in understanding the structure of different branches w.r.t master branch. 
+It gives a view of what features the beanch will have compared to master and vice-versa.
+It also points out any unreachable commits that one might be making.
