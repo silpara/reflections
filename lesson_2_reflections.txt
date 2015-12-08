@@ -26,3 +26,9 @@ It also points out any unreachable commits that one might be making.
 Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches merges the code changes made in both the branches. If everything works, then it will include the features developed in both the branches individually in the merged file.
 Representing it with diagram helps in visualizing the changes which have been merged and hence included in the final merge file.
+
+Q. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Manual merging can be cumbersome. 
+Automatic merge points out the specific lines which cause conflicts. Manual merging by resolving conflicts is more efficient. 
+It reduces the focus on only a few lines instead of huge files.
+Automatic merging can create bugs (may be)?
